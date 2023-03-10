@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body{
+    background: #EEEEEE ;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 18px;
+    max-width: 650px;
+    margin: 100px auto;
+    box-shadow: 20px 20px 50px 15px grey;
+    border-radius: 20px;
+}
+.card{
+    padding: 15px;
+    
+}
+
+.container_left{
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    border-radius: 20px;
+}
+
+.main{
+    opacity: 0.5;
+    font-size: 15px;
+    width: 200px;
+    text-align: center;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    margin: 15px auto;
+    border-radius: 10px;
+    justify-content:space-between;
+    font-weight: 600;
+}
+.item_in{
+    display: flex;
+    flex-direction: row;
+}
+.circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-right: 10px;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+
+}
+h2{
+    color: black;
+}
+.reaction {
+    background: hsl(0, 100%, 67%, 0.2);
+    color: hsl(0, 100%, 67%) ;
+    
+}
+
+.memory {
+    background: hsl(39, 100%, 56%, 0.2) ;
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal{
+    background: hsl(166, 100%, 37%, 0.2);
+    color: hsl(166, 100%, 37%);
+}
+
+.visual {
+    background: hsl(234, 85%, 45%, 0.2);
+    color: hsl(234, 85%, 45%);
+}
+
+.container_continue {
+    background:linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 80px;
+}
+
+.p_opacity{
+    opacity: 0.5;
+}
+
+p{
+    margin-left: 5px;
+}
+
+h1{
+    font-size: 65px;
+}
+
+.p_black{
+    color: black;
+}
+
+.opacity{
+    opacity: 0.5;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+a:visited{
+    text-decoration: none;
+    color: rgb(79, 74, 74);
+}
+
+a:link{
+    text-decoration: none;
+    color: rgb(79, 74, 74);
+}
+
+a:hover {
+    color: hsl(241, 81%, 54%);
+  }
+  .attribution{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    
+}
+
+@media only screen and (max-width: 375px) {
+
+    body{
+        height: 650px;
+        margin-top: -100px;
+    
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        height: 670px;
+        border-radius: 0px;
+    }
+
+    .container_left{
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+    
+    .attribution{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+
+
+}
